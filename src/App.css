@@ -1,0 +1,223 @@
+/***search input***/
+
+.find-stay {
+    background-color: #ffffff;
+    height: auto;
+    border-radius: 20px;
+}
+
+.find-stay .row input i {
+    color: #000000;
+}
+
+.find-stay i {
+    color: #280069;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: small;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.find-button {
+    margin: 0;
+    background-color: #280069;
+    color: #ffffff;
+    height: 250px;
+    width: 70px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: #a0a0a0;
+}
+
+.find-button:hover,
+.icons-left:hover,
+.tripplan-btn:hover,
+.side-bar a {
+    transform: scale(0.98);
+}
+
+.find-button i {
+    padding-top: 110px;
+}
+
+.location-input input {
+    color: #000000;
+}
+
+.location_input input {
+    width: 10px;
+}
+
+#image-container {
+    border-radius: 30px;
+    margin: 5px;
+    height: 1000px;
+    margin-top: 10px;
+}
+
+.profil-tab {
+    width: 210px;
+    height: auto;
+    background-color: #e9feffa9;
+    border-radius: 20px;
+    margin: 0 0 200px 500px;
+}
+
+.profil-tab a,
+p {
+    font-size: small;
+    color: #000000;
+}
+
+.profil-tab span {
+    font-weight: bold;
+}
+
+
+/****cards****/
+
+.container .card {
+    width: auto;
+    background: #ffffffbe;
+    border-radius: 20px;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1), 6px 6px 20px rgba(0, 0, 0, 0, 0.1);
+}
+
+.container .card:hover {
+    box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5), inset 6px 6px 20px rgba(0, 0, 0, 0, 0.05);
+}
+
+.container .card .contentBx h2 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.container .card .contentBx p {
+    color: #000000;
+    font-size: 0.9em;
+}
+
+.container .card .contentBx a {
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: -4px -4px 15px rgb(233, 233, 233), 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .card .contentBx a:hover {
+    box-shadow: inset -4px -4px 10px rgba(228, 228, 228, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .card a:hover span {
+    transform: scale(0.98);
+}
+
+.container .card:hover .imgBx,
+.container .card:hover .contentBx {
+    transform: scale(0.98);
+}
+
+.img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tag-lines p {
+    color: rgb(231, 228, 228);
+    font-size: 2em;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.tag-lines h1 {
+    color: white;
+    font-size: 7em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tripplan-btn {
+    margin-left: 50px;
+    width: 250px;
+    height: 80px;
+    border: rgb(0, 0, 0);
+    border-width: 2px;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.tripplan-btn p,
+i {
+    padding-top: 10px;
+    padding-right: 1px;
+    color: white;
+}
+
+.tripplan-btn i {
+    font-size: 30px;
+}
+
+.galary {
+    background-color: #ffffff;
+    width: 620px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 350px 0 0 50px;
+}
+
+.caption h5,
+h3 {
+    color: #000000;
+}
+
+.parallax-container {
+    min-height: 280px;
+    height: auto;
+}
+
+.icon-coffee {
+    color: #6f4037;
+}
+
+
+/*******BEACHES PAGE*******/
+
+.images {
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.detailsBX {
+    padding: 50px 0 80px 0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.detailsBX p {
+    color: #5f5e5e;
+    font-size: 1rem;
+}
+
+.images:hover {
+    transform: scale(1.01);
+}
+
+.share-btn li {
+    padding: 20px;
+}
+
+.data {}
+
+.data p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: serif;
+    margin: 50px 0;
+}

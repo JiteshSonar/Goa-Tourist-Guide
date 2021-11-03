@@ -1,0 +1,31 @@
+.galery__imagegroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gallery__image {
+    height: inherit;
+    width: inherit;
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.galery__imagegroup::-webkit-scrollbar {
+    display: none;
+}
